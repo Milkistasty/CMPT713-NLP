@@ -1,0 +1,14 @@
+README.wwa118
+
+- Initial commit for the hw3 repo setup
+
+- Implemented a Colab training code
+
+- Implemented the training file and changed the decoder hyper-parameters to make sure it samples better outputs and does not repeat itself, and also tried to add a post-decoding filter(but didn't improve the performance much)
+
+- Experimentations:
+    -default: 0.9 on dev
+    -added num_beams + selected only the highest output_scores answer + prefixprojection=True + temperature=1 + output_scores=True: 20.13 on dev
+    -added (top_k=50 + top_p=0.95 + temperature=0.7 + repetition_penalty=1.2 + no_repeat_ngram_size=3) as suggested by HuggingFace: https://huggingface.co/docs/transformers/v4.46.0/en/internal/generation_utils#transformers.EncoderRepetitionPenaltyLogitsProcessor
+     and got 29.63 on dev
+    -fixed trust_remote_code issue and re-run Gouttham's final commit code and got 30.27 on dev

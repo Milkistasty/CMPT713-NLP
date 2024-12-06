@@ -1,0 +1,4 @@
+- Initial commit for the hw3 repo setup
+- Implemented a Colab training code
+- Coded the data processing algorithm in the notebook so we can train the model using ORPO.
+- Coded the training algorithm in the notebook

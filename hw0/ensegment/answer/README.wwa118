@@ -1,0 +1,5 @@
+Contribution to this homework
+
+1. created the Github SFU repo and set up the repo initially and properly as instructed in our hw0 page: https://anoopsarkar.github.io/nlp-class/hw0.html
+2. read the beautiful data book chapter by Peter Norvig and discovered the missing function avoid_long_words and all other methods in the book
+3. implemented and tested the code with this missing function avoid_long_words and achieved 1.0 f-score in dev dataset and 0.91 in test dataset (with the ground truth answer curated by ourselves) in this dir: hw0/ensegment/data/reference/test.out

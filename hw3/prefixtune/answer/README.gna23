@@ -1,0 +1,12 @@
+Implemented the training file
+Trained the model for 20 epochs
+
+Try 1: epochs 3; prefixprojection : False dev.out score: 0.9345 small.out score: 1.1543
+
+Try 2: epochs 3; prefixprojection : True dev.out score: 16.2812 small.out score: 16.8922
+
+Try 3: epochs 3; prefixprojection : True; no_repeat_ngram_size = 3 (Got it from wwa118) small.out score: 22.1565 dev.out score: 31.1741
+
+Try 4: epochs 3; prefixprojection : True; no_repeat_ngram_size = 3 (Got it from wwa118); num_sequences=5; selection stratergy based on score small.out score: 22.7204 dev.out score: 29.9943
+
+Try 5: epochs 3; prefixprojection : True; no_repeat_ngram_size = 3 (Got it from wwa118); num_sequences=5; selection stratergy based on length of the text small.out score: 20.8834 dev.out score: 30.5553

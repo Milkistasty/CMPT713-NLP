@@ -1,0 +1,3 @@
+- Designed and implemented the data pipeline to dynamically generate augmented images and ground truths in `train2.py`.
+- Implemented the training code for the new model along with the new training procedure in `ft0.py`.
+- Optimized the training process by integrating efficient data loading techniques, reducing runtime.

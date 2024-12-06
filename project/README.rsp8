@@ -1,0 +1,4 @@
+- Handled submission
+    - Ensured that the training and evaluation was reproducible in a systematic way.
+- Worked on report.
+- Implemented `infer0.py` to use the trained model to generate outputs.

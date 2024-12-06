@@ -1,0 +1,9 @@
+Contribution to this homework
+
+1. Understood the code, debugged and found the issue with the probablity for missing word, documented it in deatail (Refer ensegment_gna23.ipynb)
+2. Experimented with different methodologies for missing words and designed three functions namely
+    - avoid_long_words (dev : 98%, test : 80%)
+    - return_scaled_prob_for_missing_word_with_int_handling (dev : 100%, test : 97%)
+    - return_zero_prob_for_missing_word_with_int_handling (dev : 100%, test : 97%)
+3. Curated the test GT's manually
+4. achieved 1.0 f-score in dev dataset and 0.97 in test dataset in this dir: hw0/ensegment/data/reference/test.out

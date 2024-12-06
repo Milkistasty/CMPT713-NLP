@@ -1,0 +1,7 @@
+- Implemented changes in the the training file to help increase the bleu score.
+- Handled submission and finalizing all the solutions into one file.
+- Experimentations:
+    -default: 1.13 on dev
+    -fixed trust_remote_code issue and re-run Gouttham's final commit code and got 31.25 on dev
+- Completed the final README that contains the instructions to run the code.
+- Fixed an issue with the zipout.py file.

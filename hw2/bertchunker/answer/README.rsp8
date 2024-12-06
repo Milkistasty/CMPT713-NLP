@@ -1,0 +1,3 @@
+- Implemented Data Augmentation (Replace, swap, drop, add) and increased FB1 Score from 90.6 to 94.3%
+- Changed the Classification head to different architectures, did not result in an improvement.
+- Used a different optimizer for the Classification Head and the Encoder, did not result in an improvement.

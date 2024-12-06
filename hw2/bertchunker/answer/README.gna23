@@ -1,0 +1,27 @@
+- Experimentation with Data Augmentation and updated the model increase FB1 Score to 94.3 to 94.6046
+- Experimentation with Data Augmentation
+    - Aug Setup 1:
+            -Aug: ['swap', 'drop', 'add', 'key']
+            -aug_ratio: 0
+            -dev.out score: 90.8348
+    - Aug Setup 2:
+        -Aug: ['swap', 'drop', 'add', 'key']
+        -aug_ratio: 0.5
+        -dev.out score: 94.5692
+    - Aug Setup 3:
+        -Aug: ['swap', 'drop', 'add', 'key']
+        -aug_ratio: 1.0
+        -dev.out score: 94.6046
+
+
+- Experimentation with the combination of lower layers:
+    -Aug Setup 3 + [layer -1,-2,-3], dev.out score: 94.1345
+    -Aug Setup 3 + [layer -1,-3,-5], dev.out score: 94.0684
+    -Aug Setup 3 + [layer -1,-5,-7], dev.out score: 93.8656
+    -Aug Setup 3 + [layer -1,-5,-7], dev.out score: 93.8656
+    -Aug Setup 3 + [layer -1,-5], dev.out score: 94.132
+
+- Experimentation with the weighted loss:
+    -Weights based on train dataset distribution: 88.5551
+    -Weights based on dev dataset distribution: 87.7225
+

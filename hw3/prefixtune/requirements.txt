@@ -1,0 +1,14 @@
+pip
+wheel
+setuptools
+numpy
+notebook
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+transformers==4.45.2
+torch>=2.0.1
+datasets
+tqdm
+sacrebleu
+accelerate
+peft==0.13.2

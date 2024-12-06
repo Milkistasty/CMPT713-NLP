@@ -1,0 +1,3 @@
+- Designed the poster.
+- Performed thorough data analysis on the model's results and notices valuable information regarding the model's predictions.
+- Modified `infer0.py` to handle evaluation and output generation. Modified the architecture for it to handling two images.

@@ -1,0 +1,22 @@
+README.wwa118
+
+- Initial commit for the hw2 repo setup
+
+- Experimentation with Data Augmentation ('add', 'swap', 'replace', 'delete', 'keyboard') and updated the model increase FB1 Score from 94.3 (raj version) to 94.91 (final version)
+
+- Experimentation with concat_last_4_hidden_layers and avg_last_4_hidden_layers and different number of layers MLP/CRF/Mini-transformer, and found only concat_last_4_hidden_layers improved F-score by 0.3
+
+- Experimentations:
+    -default: 90.5 on dev
+    -raj: 94.3 on dev
+    -goutham: 94.59 on dev
+    -raj + batch_size=4: 93.2
+    -raj + concat_last_4_hidden_layers + 2_MLP_layers_for_classification_head: 94.55 on dev
+    -raj + mini-transformer + 1_layer_for_classification_head: 94.31 on dev
+    -raj + concat_last_4_hidden_layers + epoch=10: 94.75 on dev
+    -raj + concat_last_4_hidden_layers + aug_ratio=0.3: 94.62 on dev
+    -raj + avg_last_4_hidden_layers + aug_ratio=0.3: 94.10 on dev
+    -raj + concat_last_4_hidden_layers + aug_ratio=0.5: 94.13 on dev
+    -raj + concat_last_4_hidden_layers + new_noise_func + epoch=10:  94.71 on dev
+    -gouttham + concat_last_4_hidden_layers + epoch=10: 94.91 on dev
+
