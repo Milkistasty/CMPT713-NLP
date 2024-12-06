@@ -1,6 +1,6 @@
 # CMPT713: Natural Language Processing
 
-# Coursework and final project code snippets for CMPT713: Natural Language Processing (Taught by Anoop Sarkar @ SFU, Fall 2024)
+Coursework and final project code snippets for CMPT713: Natural Language Processing (Taught by Anoop Sarkar @ SFU, Fall 2024)
 
 Course: [CMPT 713 Natural Language Processing](https://anoopsarkar.github.io/nlp-class/)
 
