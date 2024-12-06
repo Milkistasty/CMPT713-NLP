@@ -1,16 +1,12 @@
-# Repository Name: nlpclass-1247-g-nlp_for_cv
+# CMPT713: Natural Language Processing
 
-# Overview
+# Coursework and final project code snippets for CMPT713: Natural Language Processing (Taught by Anoop Sarkar @ SFU, Fall 2024)
 
-Course: [CMPT 713 Natural Language Processing](https://anoopsarkar.github.io/nlp-class/index.html)
+Course: [CMPT 713 Natural Language Processing](https://anoopsarkar.github.io/nlp-class/)
 
-Term: Fall 2024
+Final Project Group Name: nlp_for_cv
 
-Group Name: nlp_for_cv
-
-Group Members: 
+Final Project Group Members: 
 - Gouttham N, gna23
 - Raj Shreyas Penukonda, rsp8
 - Wenhe Wang, wwa118
-
-This repository contains all the submissions for Programming Assignment and Final Project.
